@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# ArcGIS Pro 生成的工具箱元数据（运行后自动生成，不入库）
+*.pyt.xml
+
+# ArcGIS 地理数据库与锁文件
+*.gdb/
+*.lock
+*.sr.lock
+scratch/
+scratchGDB/
+
+# 运行期临时 / 断点续跑产物
+progress.json
+*.tmp
+*.bak
+
+# 密钥与配置（严禁入库）
+keys.txt
+configs/keys.txt
+*.key
+config.yaml
+config.yml
+
+# 示例数据与运行产物（可按需保留后放开）
+example_data/
+run/
+output/
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+.workbuddy/
